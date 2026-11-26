@@ -33,7 +33,7 @@ network["second_gene"] = network[
 
 # Remove duplicate reciprocal interactions
 network = network.drop_duplicates(
-    subset=["first_gene", "second_gene"]
+    subset=["first_gene", "second_gene"]   #AI improved code
 )
 
 # Remove temporary columns

@@ -29,15 +29,15 @@ The analysis used the following input files:
 7. ADAMTS12_first_shell_medium.tsv — ADAMTS12 first-shell interaction data
 
 ## Main scripts
-01_clean_genes.py — cleans the ocular ADAMTS gene list
-02_clean_network.py — removes reciprocal interaction duplicates
-03_filter_pathways.py — filters relevant pathway terms
-04_shared_pathways.py — identifies shared pathways
-05_check_enrichment.py — checks the enrichment file
-06_clean_enrichment.py — prepares enrichment results
-07_check_ADAMTS12_partners.py — checks ADAMTS12 partners
-08_select_external_partners.py — selects non-ADAMTS12 partners
-09_generate_figures.R — generates the figures
+- 01_clean_genes.py — cleans the ocular ADAMTS gene list
+- 02_clean_network.py — removes reciprocal interaction duplicates
+- 03_filter_pathways.py — filters relevant pathway terms
+- 04_shared_pathways.py — identifies shared pathways
+- 05_check_enrichment.py — checks the enrichment file
+- 06_clean_enrichment.py — prepares enrichment results
+- 07_check_ADAMTS12_partners.py — checks ADAMTS12 partners
+- 08_select_external_partners.py — selects non-ADAMTS12 partners
+- 09_generate_figures.R — generates the figures
 
 ## Software
 - Python
